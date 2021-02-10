@@ -1,0 +1,15 @@
+.video__item {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 0 16px 0 0;
+    z-index: 0;
+    flex-direction: column;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.video__item:hover .video__rect {
+    background-color: rgba(0, 0, 0, 0.8);
+}

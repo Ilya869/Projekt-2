@@ -1,0 +1,11 @@
+.video__item_type_Kamchatka {
+    background-image: url(../../../../image/kamchatka.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 750px) {
+    .video__item {
+        margin: 0 0 8px 0;
+    }
+}

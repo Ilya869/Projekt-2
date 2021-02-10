@@ -1,0 +1,15 @@
+.video__icon-play {
+    position: absolute;
+    z-index: 0;
+    margin: 0;
+    z-index: 3;
+    left: 30px;
+    top: 30px;
+}
+
+@media screen and (max-width: 410px) {
+    .video__icon-play {
+        left: 15px;
+        top: 25px;
+    }
+}

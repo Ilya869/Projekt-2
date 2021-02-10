@@ -1,0 +1,18 @@
+.comments__container {
+    max-width: calc(100% - 26px); 
+    margin: 72px auto 102px;
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__container {
+        flex-wrap: wrap;
+        margin: 0 auto 100px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .comments__container {
+        margin: 0 auto 50px;
+    }
+}

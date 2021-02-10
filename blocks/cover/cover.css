@@ -1,0 +1,12 @@
+@import url('../cover/__content-subtitle/cover__content-subtitle.css');
+@import url('../cover/__content-title/cover__content-title.css');
+@import url('../cover/__link/cover__link.css');
+@import url('../cover/__rect/cover__rect.css');
+
+.cover {
+width: 100%;
+display: flex;
+background-position: center;
+background-image: url(../../image/cover.jpg);
+background-size: cover;
+}
